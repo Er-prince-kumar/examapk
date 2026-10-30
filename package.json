@@ -1,0 +1,27 @@
+{
+  "name": "exam-week-without-the-crash",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student wellness and examination management platform for college students",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd frontend && npm run test",
+    "test:backend": "cd backend && npm run test"
+  },
+  "keywords": [
+    "student-wellness",
+    "exam-planner",
+    "mtt",
+    "ett",
+    "pomodoro",
+    "sleep-tracker",
+    "hydration-tracker",
+    "gemini-ai"
+  ],
+  "author": "ExamWeekWithoutTheCrash Team",
+  "license": "MIT"
+}
